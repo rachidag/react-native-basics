@@ -1,20 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Comp1 from './components/Comp1';
+import Comp2 from './components/Comp2';
+import Comp3 from './components/Comp3';
+import Sandbox from './components/Sandbox';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    return (
+        // <Comp1 />
+        // <Comp2 />
+        <Comp3 />
+        // <Sandbox />
+    );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
